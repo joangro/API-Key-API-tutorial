@@ -1,6 +1,6 @@
-# API Key API sample tutorial
+# API Keys API sample tutorial
 
-A tutorial to use the API Key API to create and manage Google Cloud Platform API Keys.
+A tutorial to use the API Keys API to create and manage Google Cloud Platform API Keys.
 
 Currently it's only documented how to do this in the Console, via the [APIs & Services > Credentials](https://pantheon.corp.google.com/apis/credentials) overview.
 
