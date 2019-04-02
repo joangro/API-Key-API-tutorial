@@ -1,10 +1,10 @@
 # API Keys API Overview
 
+<walkthrough-tutorial-duration duration="5"></walkthrough-tutorial-duration>
+
 ## Set up the environment
 
 ### Authenticate with your account in gcloud
-
-<walkthrough-tutorial-duration duration="5"></walkthrough-tutorial-duration>
 
 ```
 gcloud init
