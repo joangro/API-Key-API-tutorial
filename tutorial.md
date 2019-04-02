@@ -4,6 +4,8 @@
 
 ### Authenticate with your account in gcloud
 
+<walkthrough-tutorial-duration duration="5 minutes"></walkthrough-tutorial-duration>
+
 ```
 gcloud init
 ```
@@ -62,7 +64,6 @@ curl "https://apikeys.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/apiKeys/$K
 
 ## Done!
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
-<walkthrough-tutorial-duration params="5 minutes"></walkthrough-tutorial-duration>
 
  
  
