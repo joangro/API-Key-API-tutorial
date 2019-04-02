@@ -61,9 +61,7 @@ curl "https://apikeys.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/apiKeys/$K
 ```
 
 ## Done!
-
-<walkthrough-directive-name param-name="conclusion-trophy">
-</walkthrough-directive-name>
+<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
  
  
