@@ -10,7 +10,7 @@ gcloud init
 
 ### Enable API Keys API 
 
-Requires having [servicemanagement](https://cloud.google.com/service-infrastructure/docs/service-management/getting-started) API and enabled and (serviceusage.services.enable)[https://cloud.google.com/service-usage/docs/reference/rest/] permissions in the project.
+Requires having [servicemanagement](https://cloud.google.com/service-infrastructure/docs/service-management/getting-started) API enabled and (serviceusage.services.enable)[https://cloud.google.com/service-usage/docs/reference/rest] permissions in the project.
 
 ```
 curl "https://servicemanagement.googleapis.com/v1/services/apikeys.googleapis.com:enable" \
