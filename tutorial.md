@@ -27,9 +27,9 @@ curl "https://servicemanagement.googleapis.com/v1/services/apikeys.googleapis.co
  -H'content-type:application/json' -H "Authorization: Bearer $(gcloud auth print-access-token)"
  ```
  
- ## Add API Key
+## Add API Key
  
- ```bash
+```bash
 curl "https://apikeys.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/apiKeys" \
 -H "Authorization: Bearer $(gcloud auth print-access-token)" -H'content-type:application/json' -X POST \
 -d"{
@@ -38,4 +38,33 @@ curl "https://apikeys.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/apiKeys" \
         \"allowedApplications\":[]
       }
     }"
- ```
+```
+ 
+## Describe API Key
+  
+Export API Key ID:
+
+```bash
+export KEY_ID=<keyId>
+```
+
+Describe API Key:
+```bash
+curl "https://apikeys.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/apiKeys/$KEY_ID" \
+-H "Authorization: Bearer $(gcloud auth print-access-token)" -H'content-type:application/json' -X GET
+```
+
+Delete API Key:
+```bash
+curl "https://apikeys.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/apiKeys/$KEY_ID" \
+-H "Authorization: Bearer $(gcloud auth print-access-token)" -H'content-type:application/json' -X DELETE
+```
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
