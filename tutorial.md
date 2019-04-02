@@ -60,7 +60,10 @@ curl "https://apikeys.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/apiKeys/$K
 -H "Authorization: Bearer $(gcloud auth print-access-token)" -H'content-type:application/json' -X DELETE
 ```
 
+## Done!
 
+<walkthrough-directive-name param-name="conclusion-trophy">
+</walkthrough-directive-name>
 
  
  
