@@ -4,7 +4,7 @@
 
 ### Authenticate with your account in gcloud
 
-<walkthrough-tutorial-duration duration="5 minutes"></walkthrough-tutorial-duration>
+<walkthrough-tutorial-duration duration="5"></walkthrough-tutorial-duration>
 
 ```
 gcloud init
